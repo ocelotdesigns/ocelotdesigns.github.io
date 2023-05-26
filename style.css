@@ -740,30 +740,60 @@ a:hover{
         align-items: center;
         text-align: center;
     }
-  .new-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    .new-container {
+      width: 90%;
     }
-  
-     .image-container {
+    
+    .image-container {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      align-items: center;
-      margin-top: 5px;
+      margin-top: 20px;
     }
-  
-   .image-wrapper {
-     display: inline-flex;
-     flex-direction: column;
-     align-items: center;
-     margin-top: 5px;
-   }
-  
+    
+    .image-wrapper {
+      width: 300px;
+      margin: 10px;
+      position: relative; /* Add this line */
+    }
+    
+    .image-wrapper img {
+      width: 100%;
+      height: auto;
+    }
+    
     .sticker {
-     text-align: center;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      box-sizing: border-box;
     }
+    
+    .sticker h1, .sticker h2 {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .order-section {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .order-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #ff5c5c;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
   
     .order-section {
      display: flex;
