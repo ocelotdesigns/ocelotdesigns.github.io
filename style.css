@@ -618,20 +618,20 @@ a:hover{
 
 
 
-#whatsapp-icon {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    width: 60px;
-    height: 60px;
-    background-color: green;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 30px;
-    cursor: pointer;
+/* WhatsApp icon */
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  font-size: 24px;
+  color: #25d366; /* Customize the color if desired */
+  text-decoration: none;
+  z-index: 9999; /* Ensure the icon appears above other elements */
+}
+
+/* Hover effect */
+.whatsapp-icon:hover {
+  color: #128c7e; /* Customize the hover color if desired */
 }
 .container-2 {
     display: flex;
